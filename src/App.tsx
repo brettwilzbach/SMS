@@ -120,11 +120,6 @@ function App() {
                 alt="Construction crew working together on building project"
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-40 rounded-lg flex items-end justify-center pb-8">
-                <p className="text-white text-lg font-semibold text-center px-4">
-                  No judgment, just progress (and beers).
-                </p>
-              </div>
               <div className="absolute -bottom-4 -right-4 bg-orange-600 text-white p-4 rounded-lg shadow-lg">
                 <div className="text-2xl font-bold">$500</div>
                 <div className="text-sm">Full Series</div>
