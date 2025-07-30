@@ -136,7 +136,7 @@ function App() {
             Stop Outsourcing Everything
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-4xl mx-auto">
-            Somewhere along the way, we got really good at spreadsheets and emails — but never figured out how to silence a dripping faucet. SMS is for men who are finally ready to stop outsourcing the basics — and maybe stop their wife from shaking her head and texting the mom group chain for handyman help. It's six weeks of tools, hands-on fixing, and beating your chest and howling at the moon. No judgment, just progress (and beers). Remember, If you get handy, she'll get handsy.
+            Somewhere along the way, we got really good at spreadsheets, but never figured out how to tame a dripping faucet. SMS is for men who are finally ready to stop outsourcing the basics and maybe stop their wife from shaking her head and texting the mom chain for handyman help. It's six weeks of tools, hands-on fixing, and beating your chest and howling at the moon. No judgment, just progress (and beers).
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
