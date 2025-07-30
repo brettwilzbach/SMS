@@ -1,21 +1,19 @@
 import React, { useState } from 'react';
-import SEO from './components/SEO';
 import { 
   Hammer, 
   Wrench, 
   Zap, 
+  Check, 
+  Mail, 
+  MapPin, 
+  Calendar, 
+  Users, 
   Settings, 
   Shield, 
-  PaintBucket,
-  Check,
-  Mail,
-  Phone,
-  MapPin,
-  Users,
-  Calendar,
-  DollarSign,
-  Award
+  PaintBucket 
 } from 'lucide-react';
+import SEO from './components/SEO';
+import Navbar from './components/Navbar';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -72,26 +70,13 @@ function App() {
     "In one episode of Saved by the Bell, Zach fixes a woman's car and I sat there in awe",
     "That Don Draper scene when he fixed the sink was a pivotal moment for me",
     "I want to look and act like Bob Vila",
-    "I want to put some hair on my chest"
+    "Wait until the boys at the office see that I have acquired tangible, real life skills, and that I can do hard things"
   ];
 
   return (
     <div className="min-h-screen bg-white">
       <SEO />
-      {/* Header */}
-      <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center py-4">
-            <div className="flex items-center space-x-2">
-              <Hammer className="w-8 h-8 text-blue-800" />
-              <span className="text-2xl font-bold text-gray-900">SMS - Soft Men Skills</span>
-            </div>
-            <button className="bg-orange-600 text-white px-6 py-2 rounded-lg font-semibold hover:bg-orange-700 transition-colors">
-              Join Waitlist
-            </button>
-          </div>
-        </div>
-      </header>
+      <Navbar />
 
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-blue-900 to-gray-800 text-white">
@@ -116,14 +101,10 @@ function App() {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=800" 
-                alt="Construction crew working together on building project"
+                src="/tool-time-hero.jpg" 
+                alt="Tool Time with Tim Taylor and Al Borland"
                 className="rounded-lg shadow-2xl w-full h-96 object-cover"
               />
-              <div className="absolute -bottom-4 -right-4 bg-orange-600 text-white p-4 rounded-lg shadow-lg">
-                <div className="text-2xl font-bold">$500</div>
-                <div className="text-sm">Full Series</div>
-              </div>
             </div>
           </div>
         </div>
@@ -257,22 +238,28 @@ function App() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-            <img 
-              src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=500" 
-              alt="Male construction workers with hard hats and tools"
-              className="rounded-lg shadow-lg h-64 w-full object-cover"
-            />
-            <img 
-              src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=500" 
-              alt="Men working on home repair project with power tools"
-              className="rounded-lg shadow-lg h-64 w-full object-cover"
-            />
-            <img 
-              src="https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?auto=compress&cs=tinysrgb&w=500" 
-              alt="Skilled tradesmen working together on construction site"
-              className="rounded-lg shadow-lg h-64 w-full object-cover"
-            />
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+            <div className="rounded-lg shadow-lg h-64 overflow-hidden">
+              <img 
+                src="https://images.pexels.com/photos/2219024/pexels-photo-2219024.jpeg?auto=compress&cs=tinysrgb&w=500" 
+                alt="Male construction workers with hard hats and tools"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="rounded-lg shadow-lg h-64 overflow-hidden">
+              <img 
+                src="/DadsofMilton.jpg" 
+                alt="Dads of Milton group"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="rounded-lg shadow-lg h-64 overflow-hidden bg-gray-100">
+              <img 
+                src="/Dad-A-Base.jpg" 
+                alt="Dad-A-Base toolkit"
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </section>
@@ -284,17 +271,17 @@ function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <div className="bg-gray-800 p-8 rounded-lg border-2 border-gray-700">
-              <h3 className="text-2xl font-bold mb-4">Per Class</h3>
-              <div className="text-4xl font-bold text-orange-500 mb-4">$100</div>
+              <h3 className="text-2xl font-bold mb-4">Drop-in Session</h3>
+              <div className="text-4xl font-bold text-orange-500 mb-4">$150</div>
               <p className="text-gray-300">Pay as you go</p>
             </div>
             <div className="bg-orange-600 p-8 rounded-lg border-2 border-orange-500 relative">
               <div className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-blue-800 text-white px-4 py-1 rounded-full text-sm font-semibold">
                 Best Value
               </div>
-              <h3 className="text-2xl font-bold mb-4">Full Series</h3>
-              <div className="text-4xl font-bold mb-4">$500</div>
-              <p className="text-orange-100">Save $100 + get toolbelt</p>
+              <h3 className="text-2xl font-bold mb-4">Fall Session</h3>
+              <div className="text-4xl font-bold mb-4">$750</div>
+              <p className="text-orange-100">Best value for all workshops</p>
             </div>
           </div>
         </div>
@@ -307,7 +294,7 @@ function App() {
             Want In?
           </h2>
           <p className="text-xl text-gray-600 mb-8">
-            Get notified when we launch + receive a free tool guide
+            Get notified when we launch our next workshop series
           </p>
 
           <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg">
@@ -328,10 +315,15 @@ function App() {
                 {isSubmitted ? 'Signed Up!' : 'Join Waitlist'}
               </button>
             </div>
-            <p className="text-sm text-gray-500">
-              Free "Top 10 Tools Every Guy Should Own" guide sent immediately
-            </p>
           </form>
+          
+          <div className="mt-12">
+            <img 
+              src="/HideyHo.jpg" 
+              alt="Wilson from Home Improvement peeking over the fence saying Hidey Ho"
+              className="mx-auto rounded-lg shadow-lg max-w-full max-h-96 object-contain"
+            />
+          </div>
         </div>
       </section>
 
@@ -366,7 +358,7 @@ function App() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Opportunities</h3>
               <ul className="space-y-2 text-gray-400">
-                <li>Tradesmen partners wanted</li>
+                <li><a href="/tradesmen-partners" className="hover:text-white transition-colors">Tradesmen partners wanted</a></li>
                 <li>Corporate team building</li>
                 <li>Gift cards available</li>
                 <li>Media partnerships welcome</li>
