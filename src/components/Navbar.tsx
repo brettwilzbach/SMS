@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Hammer, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,8 +14,9 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
-            <Hammer className="w-8 h-8 text-blue-800" />
-            <Link to="/" className="text-2xl font-bold text-gray-900">SMS - Soft Men Skills</Link>
+            <Link to="/">
+              <img src="/SMS Logo.jpeg" alt="SMS - Soft Men Skills" className="h-12" />
+            </Link>
           </div>
           
           {/* Desktop Navigation */}
