@@ -15,7 +15,9 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center space-x-2">
             <Link to="/">
-              <img src="/SMS Logo.jpeg" alt="SMS - Soft Men Skills" className="h-12" />
+              <div className="bg-white p-1 rounded">
+                <img src="/SMS Logo.jpg" alt="SMS - Soft Men Skills" className="h-16" />
+              </div>
             </Link>
           </div>
           
