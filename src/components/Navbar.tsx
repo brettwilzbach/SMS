@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-700 hover:text-blue-800 font-medium">Home</Link>
             <Link to="/tradesmen-partners" className="text-gray-700 hover:text-blue-800 font-medium">Tradesmen Partners</Link>
-            <img src="/milton-logo.png" alt="Milton, MA" className="h-8 w-8" title="Based in Milton, MA" />
+            <img src="/Milton.jpg" alt="Milton, MA" className="h-8 w-8 rounded-full" title="Based in Milton, MA" />
           </nav>
           
           {/* Mobile menu button */}
