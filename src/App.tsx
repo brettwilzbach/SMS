@@ -143,6 +143,54 @@ function App() {
         </div>
       </section>
 
+      {/* Why I Started SMS - Founder Video */}
+      <section className="py-20 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="md:w-1/2">
+              <h2 className="text-4xl font-bold text-gray-900 mb-4">
+                Why I Started SMS
+              </h2>
+              <p className="text-lg text-gray-700 mb-6">
+                Hi, I'm Brett Wilzbach, a Milton resident and founder of Saturday Morning Skills. 
+                I created SMS after noticing how many of us (myself included) were missing basic 
+                home repair knowledge that our dads or grandfathers once had.
+              </p>
+              <p className="text-lg text-gray-700 mb-6">
+                This isn't a franchise or national chain - it's a local community of Milton guys 
+                learning together in a judgment-free zone. Watch my quick story below.
+              </p>
+              <div className="flex items-center space-x-4">
+                <img 
+                  src="/HideyHo.jpg" 
+                  alt="Brett Wilzbach" 
+                  className="w-16 h-16 rounded-full object-cover border-2 border-blue-800" 
+                />
+                <div>
+                  <p className="font-semibold">Brett Wilzbach</p>
+                  <p className="text-sm text-gray-600">Founder, SMS Milton</p>
+                </div>
+              </div>
+            </div>
+            <div className="md:w-1/2 mt-8 md:mt-0">
+              <div className="bg-gray-100 rounded-lg shadow-lg aspect-video flex items-center justify-center relative overflow-hidden">
+                {/* Replace this with your actual video embed code when ready */}
+                <div className="absolute inset-0 flex items-center justify-center bg-blue-900/10">
+                  <div className="bg-blue-800 text-white rounded-full w-16 h-16 flex items-center justify-center cursor-pointer hover:bg-blue-700 transition-colors">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
+                      <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clipRule="evenodd" />
+                    </svg>
+                  </div>
+                </div>
+                <p className="text-center text-gray-500 absolute bottom-4 left-0 right-0">
+                  Upload your video here to share your SMS story
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Wall Warrior Series */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
