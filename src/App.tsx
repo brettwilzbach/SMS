@@ -152,13 +152,15 @@ function App() {
                 Why I Started SMS
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Hi, I'm Brett Wilzbach, a Milton resident and founder of Saturday Morning Skills. 
-                I created SMS after noticing how many of us (myself included) were missing basic 
-                home repair knowledge that our dads or grandfathers once had.
+                Hi, I'm Brett, a Milton resident, New Balance wearing Dad, and founder of Soft Men Skills. 
+                I created SMS because I needed a return to basics. I was ready for less time behind a computer 
+                and craved a shop class reboot. There are some things that it is good for the soul to teach your 
+                sons about and the latest AI integration is not one of them. It's a pride boost to hone old 
+                generation practical skills. and feels good to have some guy time.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                This isn't a franchise or national chain - it's a local community of Milton guys 
-                learning together in a judgment-free zone. Watch my quick story below.
+                It's a local community of Milton & Boston guys hanging out and learning skills. It makes you 
+                feel like you've finally broken through the imposter syndrome of this whole suburban Dad thing.
               </p>
               <div className="flex items-center space-x-4">
                 <img 
