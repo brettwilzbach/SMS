@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center space-x-2">
             <Link to="/">
               <div className="bg-white p-2 rounded shadow-sm" style={{ backgroundColor: "white" }}>
-                <img src="/SMS Logo.jpg" alt="SMS - Soft Men Skills" className="h-16" />
+                <img src="/SMS_files/logo.png" alt="SMS - Soft Men Skills" className="h-16" />
               </div>
             </Link>
           </div>
