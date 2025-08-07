@@ -131,8 +131,8 @@ function App() {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <Calendar className="w-12 h-12 text-blue-800 mx-auto mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Sundays 5PM</h3>
-              <p className="text-gray-600">1 hour + optional 30min beer hang</p>
+              <h3 className="text-xl font-semibold mb-2">Sundays 4:30PM</h3>
+              <p className="text-gray-600">1 hour + optional 30min beer hang (home by dinner)</p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img src="/Milton2.jpg" alt="Milton, MA" className="w-16 h-16 mx-auto mb-4 rounded-lg" />
