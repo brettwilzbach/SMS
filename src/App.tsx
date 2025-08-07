@@ -386,7 +386,7 @@ function App() {
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>info@softmenskills.com</span>
+                  <span>bwilzbach@gmail.com</span>
                 </div>
               </div>
             </div>
