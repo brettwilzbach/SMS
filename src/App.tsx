@@ -152,26 +152,14 @@ function App() {
                 Why I Started SMS
               </h2>
               <p className="text-lg text-gray-700 mb-6">
-                Hi, I'm Brett, a Milton resident, New Balance wearing Dad, and founder of Soft Men Skills. 
-                I created SMS because I needed a return to basics. I was ready for less time behind a computer 
-                and craved a shop class reboot. There are some things that it is good for the soul to teach your 
-                sons about and the latest AI integration is not one of them. It's a pride boost to hone old 
-                generation practical skills. and feels good to have some guy time.
+                Hi, I'm Brett, a Milton resident, New Balance wearing Dad, and founder of Soft Men Skills. I created SMS because I desparately needed to boost some man skills. There are some things that it is good for the soul to teach your sons about and excel shortcuts is not one of them. It's a pride boost to hone old generation practical usefullness and feels good to have some guy time.
               </p>
               <p className="text-lg text-gray-700 mb-6">
-                It's a local community of Milton & Boston guys hanging out and learning skills. It makes you 
-                feel like you've finally broken through the imposter syndrome of this whole suburban Dad thing.
+                It's a local community of Milton & Boston guys hanging out and learning DIY hacks. It makes you feel like you've finally broken through the imposter syndrome of this whole suburban Dad thing.
               </p>
-              <div className="flex items-center space-x-4">
-                <img 
-                  src="/HideyHo.jpg" 
-                  alt="Brett Wilzbach" 
-                  className="w-16 h-16 rounded-full object-cover border-2 border-blue-800" 
-                />
-                <div>
-                  <p className="font-semibold">Brett Wilzbach</p>
-                  <p className="text-sm text-gray-600">Founder, SMS Milton</p>
-                </div>
+              <div>
+                <p className="font-semibold">Brett Wilzbach</p>
+                <p className="text-sm text-gray-600">Founder, SMS Milton</p>
               </div>
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
