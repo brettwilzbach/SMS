@@ -8,8 +8,6 @@ import {
   MapPin, 
   Calendar, 
   Users, 
-  Settings, 
-  Shield, 
   PaintBucket 
 } from 'lucide-react';
 import SEO from './components/SEO';
@@ -29,33 +27,23 @@ function App() {
   const modules = [
     {
       icon: <Hammer className="w-8 h-8" />,
-      title: "The Wall Whisperer",
-      description: "Stud finding, anchor types, basic wall mounting"
+      title: "Walls + Tools",
+      description: "Stud finding, anchor types, shelf hanging, drill basics"
     },
     {
       icon: <Wrench className="w-8 h-8" />,
-      title: "The Pipe Tamer", 
-      description: "Fixing toilets, leaks, and finding shutoff valves"
+      title: "Plumbing Essentials", 
+      description: "Toilet fixes, sink P-trap, faucet washers, shutoff valves"
     },
     {
       icon: <Zap className="w-8 h-8" />,
-      title: "The Wire Wrangler",
-      description: "Swapping fixtures and electrical basics"
-    },
-    {
-      icon: <Settings className="w-8 h-8" />,
-      title: "The Tool Guy",
-      description: "Starter tools, safe drill use, avoiding stripped screws"
-    },
-    {
-      icon: <Shield className="w-8 h-8" />,
-      title: "The Fix-It Pro",
-      description: "Easy home fixes and contractor red flag tips"
+      title: "Electrical + Fixtures",
+      description: "Switches, outlets, light fixtures, wire stripping"
     },
     {
       icon: <PaintBucket className="w-8 h-8" />,
-      title: "Patch & Polish",
-      description: "Drywall repair, caulking, and quick paint jobs"
+      title: "Patch, Paint & Finish",
+      description: "Drywall repair, caulking, touch-up painting"
     }
   ];
 
@@ -87,7 +75,7 @@ function App() {
                 BREAK OUT YOUR STUDFINDER!
               </h1>
               <p className="text-lg mb-6 text-gray-300 leading-relaxed">
-                Learn 6 essential DIY skills in 6 weeks — with beer.
+                Learn essential DIY skills in just 4 weeks — with beer.
               </p>
               
               {/* Hero Bullets */}
@@ -148,7 +136,7 @@ function App() {
             Stop Outsourcing Everything
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-4xl mx-auto">
-            Somewhere along the way, we got really good at spreadsheets, but never figured out how to tame a dripping faucet. SMS is for men who are finally ready to stop outsourcing the basics and maybe stop their wife from shaking her head and texting the mom chain for handyman help. It's six weeks of tools, hands-on fixing, and beating your chest and howling at the moon.
+            Somewhere along the way, we got really good at spreadsheets, but never figured out how to tame a dripping faucet. SMS is for men who are finally ready to stop outsourcing the basics and maybe stop their wife from shaking her head and texting the mom chain for handyman help. It's four weeks of tools, hands-on fixing, and beating your chest and howling at the moon.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed mb-12 max-w-4xl mx-auto">
             No judgment, just progress (and beers).
@@ -217,15 +205,15 @@ function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              Wall Warrior Series
+              Soft Men Skills: Core 4
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Six weeks of hands-on learning that will transform you from helpless to handy. 
+              Four weeks of hands-on learning that will transform you from helpless to handy. 
               Each session builds on the last, giving you real skills you'll use for life.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-6xl mx-auto">
             {modules.map((module, index) => (
               <div key={index} className="bg-white p-6 rounded-lg shadow-md border-2 border-gray-100 hover:border-blue-300 transition-colors">
                 <div className="text-blue-800 mb-4">
@@ -348,7 +336,7 @@ function App() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Fall Session</h3>
               <div className="text-4xl font-bold mb-4">$750</div>
-              <p className="text-orange-100">Best value for all workshops</p>
+              <p className="text-orange-100">Best value for all 4 workshops</p>
             </div>
           </div>
         </div>
