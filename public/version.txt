@@ -1,4 +1,4 @@
 Build timestamp: 2025-08-12T07:36:26-04:00
 Deployment version: Railway-optimized build with AGGRESSIVE cache-busting
 Last updated: August 12, 2025 at 7:36 AM EST
-Cache-busting attempt: #3
+Cache-busting attempt: #4
