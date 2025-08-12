@@ -84,11 +84,32 @@ function App() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h1 className="text-3xl lg:text-4xl font-bold mb-4">
-                BREAK OUT YOUR STUD FINDER
+                BREAK OUT YOUR STUDFINDER!
               </h1>
-              <p className="text-lg mb-8 text-gray-300 leading-relaxed">
-                Six-week hands-on workshop series for guys who never learned to hang a shelf — until now.
+              <p className="text-lg mb-6 text-gray-300 leading-relaxed">
+                Learn 6 essential DIY skills in 6 weeks — with beer.
               </p>
+              
+              {/* Hero Bullets */}
+              <ul className="mb-8 space-y-2">
+                <li className="flex items-start">
+                  <Check className="w-5 h-5 text-orange-500 mr-2 mt-1 flex-shrink-0" />
+                  <span>Hands-on workshops taught by real tradesmen</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="w-5 h-5 text-orange-500 mr-2 mt-1 flex-shrink-0" />
+                  <span>All tools provided (yours to keep)</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="w-5 h-5 text-orange-500 mr-2 mt-1 flex-shrink-0" />
+                  <span>No judgment, small group, big laughs</span>
+                </li>
+                <li className="flex items-start">
+                  <Check className="w-5 h-5 text-orange-500 mr-2 mt-1 flex-shrink-0" />
+                  <span>Beer hang after every session</span>
+                </li>
+              </ul>
+              
               <button 
                 onClick={() => document.getElementById('waitlist')?.scrollIntoView({ behavior: 'smooth' })}
                 className="bg-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-orange-700 transition-colors inline-flex items-center space-x-2"
@@ -96,15 +117,25 @@ function App() {
                 <span>Join the Waitlist</span>
               </button>
               <p className="text-sm mt-4 text-gray-400 italic">
-                *Tim "The Tool Man" Taylor–approved grunts optional.
+                Only 10 spots per session — first come, first served
               </p>
             </div>
-            <div className="relative">
+            <div className="relative grid grid-cols-2 gap-4">
               <img 
-                src="/tool-time-hero.jpg" 
-                alt="Tool Time with Tim Taylor and Al Borland"
-                className="rounded-lg shadow-2xl w-full h-96 object-cover"
+                src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg" 
+                alt="Smiling guy using a drill"
+                className="rounded-lg shadow-2xl w-full h-64 object-cover"
               />
+              <img 
+                src="https://images.pexels.com/photos/5673488/pexels-photo-5673488.jpeg" 
+                alt="Guys clinking beers in a garage"
+                className="rounded-lg shadow-2xl w-full h-64 object-cover"
+              />
+              <div className="absolute top-4 right-4">
+                <div className="bg-orange-600 text-white rounded-full p-2 shadow-lg transform rotate-12">
+                  <p className="text-xs font-bold">Tim Taylor<br/>Approved</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
